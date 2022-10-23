@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+header > nav > li, a{
+    font-weight: 600px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+/*----------------------(header bölümü)----------------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+}
+
+nav > ul > li{
+    float: left;
+    margin: 2rem;
+}
+
+nav > ul{
+    list-style: none;
+}
+
+
+/*----------------------(main bölümü)----------------------*/
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;    
+}
+
+
+
+.first-article{
+    margin-top: 100px;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-article{
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    
+}
+
+.second-article > article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.second-article > article > a{
+    font-size: 40px;
+}
+
+main > figure > img{
+    width: 400px;
+    height: 400px;
+}
+
+/*----------------------(footer bölümü)----------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+footer > article > p{
+    display: flex;
+    justify-content: center;
+}
+
+footer > article > ul{
+    list-style: none;
+}
+
+footer > article > ul > li{
+    float: left;
+    margin: 3rem;
+}
+
+
+
+

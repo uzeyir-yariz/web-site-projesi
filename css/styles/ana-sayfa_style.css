@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+h1,a{
+    font-family: 'Manrope', sans-serif;
+}
+
+p{
+    font-family: 'Slabo 27px', serif;
+}
+
+nav{
+    background-color: lightblue;
+    box-shadow: 15px 10px 10px;
+    border-radius: 30px;
+}
+
+nav > a > img{
+    background-color: rgba(0, 0, 0, 80%);
+    border-radius: 25px;
+}
+
+nav > ul > li > a{
+    box-shadow: 2px 2px 10px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+nav > a{
+    color: black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px;
+    padding: 10px;
+    transition: 500ms;    
+}
+
+nav > a:hover{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.sing-in{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.sing-in:hover{
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+main, article{
+    background-color: lightcyan;
+    border-radius: 50px;
+}
+
+main{
+    box-shadow: 15px 10px 10px;
+    padding: 25px;
+}
+
+main > figure{
+    box-shadow: 2px 2px 10px;
+    padding: 25px;
+    border-radius: 50px;
+}
+
+.first-article{
+    box-shadow: 2px 2px 10px;
+    padding: 25px;
+}
+
+.second-article{
+    box-shadow: 2px 2px 10px;
+    padding: 25px;
+}
+
+.second-article > article > a{
+    color: black;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.second-article > article > a:hover{
+    color: lightgreen;
+    padding: 20px;
+}
+
+footer > article{
+    box-shadow: 2px 2px 10px;
+    padding: 25px;
+}
+
+footer > article > ul > li{
+    box-shadow: 2px 2px 10px;
+    border-radius: 50px;
+    transition: 500ms;
+}
+
+footer > article > ul > li:hover{
+    padding: 30px;
+}
+
+img{ 
+    width: auto;
+    height: 75px;
+}
+
+
+
